@@ -1,7 +1,5 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
 
-*.java linguist-detectable=true
-/frontend/* linguist-detectable=false
-/frontend/** linguist-detectable=false
+*.java linguist-weight=10
 
