@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #dbeafe, #f0f9ff); /* add the background fading color */
+}
+
+.dynamic-bg {
+    background-size: cover; /* the image covers the whole screen */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.5); /* transparency */
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px); /* makes the background slightly blurry */
+    color: #111;
+    font-size: 16px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.weather-card button {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.weather-card button:hover {
+    background-color: #2563eb;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #374151;
+}
